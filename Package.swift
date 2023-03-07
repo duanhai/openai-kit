@@ -6,7 +6,6 @@ import PackageDescription
 let package = Package(
     name: "openai-kit",
     platforms: [
-        .macOS(.v12),
         .iOS(.v15),
     ],
     products: [
